@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    height: 100vh;
+    background: url(' ./mainef.jpg') no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.details {
+    width: 35vw;
+    height: 100vh;
+    background: url('./sidef.jpg') no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/* .details::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 64vw;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+
+} */
+
+.topB {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    align-self: flex-end;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+.empty {
+    flex-grow: 9;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2em;
+}
+
+.bottomB {
+    flex-grow: 1;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2em;
+    display: flex;
+    flex-direction: row
+}
+
+.bottomLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 2;
+    margin-left: 20px;
+}
+
+.bottomRight {
+
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 4em;
+}
+
+.span {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2em;
+}
+
+
+
+.details {
+    color: white;
+
+}
+
+.displayPic {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+
+    height: 150px;
+    width: 150px;
+}
+
+.desc {
+    padding: 30px 0 0 0;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+
+}
+
+.displayInfo {
+    margin-left: 7%;
+    width:80%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-top: 5em;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.displayInfo div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3em;
+    width: 13em;
+    border-bottom: 2px solid white;
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+}
+
+.search {
+    z-index: 10;
+    text-align: center;
+}
+
+input {
+    width: 10em;
+    height: 2em;
+    border-radius: 5px;
+    padding: 0px 0 0 10px;
+}
+
+.my-button {
+    width: 6em;
+    height: 2em;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px 0px;
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+}
